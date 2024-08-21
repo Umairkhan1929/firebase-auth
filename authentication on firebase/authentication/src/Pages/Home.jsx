@@ -73,6 +73,8 @@ function Home() {
        
     }
     return (
+        <>
+
         <div className="form-container">
          <form className="form" onSubmit={handleFormSubmit}>
             {isSignUpActive && <legend><h2>Sign Up</h2></legend>}
@@ -106,7 +108,7 @@ function Home() {
             </p>
         </form>
         </div>
-
+        </>
     )
 }
 

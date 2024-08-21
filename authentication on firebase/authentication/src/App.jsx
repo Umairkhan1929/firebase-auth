@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes  } from 'react-router-dom'
 import Home from './Pages/Home'
 import Private from './Pages/Private'
 import { useEffect, useState } from 'react'
