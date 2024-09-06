@@ -1,0 +1,33 @@
+.header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    background-color: #4CAF50; 
+    padding: 10px 0;
+    color: white;
+    z-index: 1000; 
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .nav-list li {
+    margin: 0 15px;
+  }
+  
+  .nav-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .nav-list a:hover {
+    text-decoration: underline;
+  }
+  

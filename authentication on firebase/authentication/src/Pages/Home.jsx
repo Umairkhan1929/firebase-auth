@@ -101,9 +101,6 @@ function Home() {
         <p>
             {isSignUpActive && <span onClick={handleMethodChange}>Already have an account? <a className="link">Sign In</a> </span> }
 
-
-
-            {/* {isSignUpActive && <a onClick={handleMethodChange}>Already have an account? Sign In </a>} */}
             {!isSignUpActive && <span onClick={handleMethodChange}>Don't have an account? <a className="link"> Sign Up</a> </span>}
             </p>
         </form>
